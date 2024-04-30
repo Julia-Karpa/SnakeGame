@@ -20,3 +20,9 @@ I used Adobe AI generator to create my snake logo.
 I wanted a logo that would match my overall page colour scheme. I went for pink and green, as pink softens and warms up a green tone, while green keeps the pink grounded and earthy. 
 
 <img src="/assets/images/colourscheme.png">
+
+## Wireframes:
+
+<img src="/assets/images/wireframe.jpg">
+
+<img src="/assets/images/wireframegame.jpg">
