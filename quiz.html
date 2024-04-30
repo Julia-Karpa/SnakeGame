@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/quiz.css" />
+    <title>Quiz</title>
+
+    
+  </head>
+
+  <body>
+    
+    <h1>Answer 3 Correct Questions To Unlock Access To The Game</h1>
+  <div class="try1">
+    <div>Attempts:</div>
+    <div id="attempts"></div>
+  </div>
+  <br>
+  <div class="try">
+    <div>
+    <div>Score:</div>
+    <div id="score"></div>
+    </div>
+  </div>
+    <button id="button" onclick="startNewGame()">Start Quiz</button>
+    
+    
+  
+
+    <div>
+      <div id="question"></div>
+      <div class="choices" id="choice0" onclick="checkAnswer(this , 0)"></div>
+      <div class="choices" id="choice1" onclick="checkAnswer(this , 1)"></div>
+      <div class="choices" id="choice2" onclick="checkAnswer(this , 2)"></div>
+      <div class="choices" id="choice3" onclick="checkAnswer(this , 3)"></div>
+    </div>
+
+    <script src="assets/javascript/quiz.js"></script>
+  </body>
+</html>
