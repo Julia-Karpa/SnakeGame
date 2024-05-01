@@ -1,6 +1,6 @@
 /* Multiple Choice Questions */
 
-/* define questions and posible answers (nb: correct answer is 1st in the array) */
+/* define questions and possible answers (nb: correct answer is 1st in the array) */
 questions = [
     ["Snakes are cold blooded and must regulate their body temperature externally. True or false?", ["False", "True", "", ""], 1] ,
     ["About once a month snakes shed their skin. What is this shedding process called?", ["Metamorphosis", "Mitosis", "Ecdysis"], 2],
