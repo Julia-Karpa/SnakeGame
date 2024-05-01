@@ -89,3 +89,13 @@ border: rgb(166, 234, 157) 5px solid;
 .center {
     position: absolute;
 }
+
+
+a.button {
+    padding: 1px 6px;
+    color: #fff;
+    background-color: rgb(238, 114, 153);
+    text-decoration: none;
+    max-height: 30px;
+  
+}

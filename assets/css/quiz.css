@@ -2,6 +2,7 @@ body {
 font-family: "Dangrek", sans-serif;
 background-color: rgb(166, 234, 157);
 text-align: center;
+color: #fff;
 }
 
 h1 {
@@ -41,36 +42,12 @@ img {
   }
   
 
-.try {
-    color: #fff;
-    text-shadow: 1px 1px rgb(238, 114, 153);
-    display: flex;
-    justify-content: flex-end;
+ 
    
-   
-    
-
-}
-.try1 {
-    color: #fff;
-    text-shadow: 1px 1px rgb(238, 114, 153);
-    display: flex;
-    justify-content: flex-end;
-    padding-left: 10px;
-    
-
-}
-
-
-
-
-#button {
-    background-color: rgb(238, 114, 153);
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
+  li {
+    list-style: none;
     display: inline-block;
-    font-size: 10px;
+ 
   }
+
+ 
