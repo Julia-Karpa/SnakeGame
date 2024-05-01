@@ -1,8 +1,9 @@
 body {
 font-family: "Dangrek", sans-serif;
-background-color: rgb(166, 234, 157);
+
 text-align: center;
 color: #fff;
+background: radial-gradient(at center, rgb(238, 114, 153),rgb(139, 244, 125) );
 }
 
 
@@ -30,8 +31,8 @@ img {
 
 
   #question {
-    color: rgb(238, 114, 153);
-    text-shadow: 1px 1px #fff;
+    color: #fff;
+    text-shadow: 1px 1px rgb(238, 114, 153);
     font-size: xx-large;
   }
 
@@ -51,7 +52,9 @@ img {
   
 tr {
   font-size: x-large;
-  text-shadow: 1px 1px rgb(238, 114, 153);
+  text-shadow: 1px 1px #fff;
+  background-color: rgb(166, 234, 157);
+  color: rgb(238, 114, 153);
   
 }
  
