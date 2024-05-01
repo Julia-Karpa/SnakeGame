@@ -41,7 +41,7 @@ questions = [
   
     /* Display scores and lives on screen  */
     document.getElementById("score").innerHTML = score;
-    document.getElementById("attempts").innerHTML = attempts;
+    document.getElementById("try").innerHTML = attempts;
   }
   
 
@@ -55,7 +55,7 @@ questions = [
   
   
 
-    document.getElementById("button").style.display="none";
+  
 
     /* Get a random number and use it to pick a question */
     randInt = Math.floor(Math.random() * questions.length);
@@ -104,7 +104,7 @@ console.log(questions[randInt][1][userAnswer])
  
     /* Reduce the number of attempts left */
     attempts--;
-    document.getElementById("attempts").innerHTML = attempts;
+    document.getElementById("try").innerHTML = attempts;
  
     /* If 3 correct questions have been answered, allow the game */
     if (score >= 3) {
@@ -122,3 +122,4 @@ console.log(questions[randInt][1][userAnswer])
 
   /* --- Main Program starts when user clicks START button  ---------------*/
   resetScreen();
+  displayQuestion()

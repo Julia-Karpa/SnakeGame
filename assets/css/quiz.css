@@ -5,6 +5,7 @@ text-align: center;
 color: #fff;
 }
 
+
 h1 {
     color: white;
     text-shadow: 2px 1px rgb(238, 114, 153);
@@ -30,7 +31,13 @@ img {
 
   #question {
     color: rgb(238, 114, 153);
-    font-size: medium;
+    text-shadow: 1px 1px #fff;
+    font-size: xx-large;
+  }
+
+  .choices {
+    font-size: xx-large;
+    
   }
   
 
@@ -39,15 +46,51 @@ img {
     background-color: rgb(238, 114, 153);
     cursor: pointer;
    
+   
   }
   
-
+tr {
+  font-size: x-large;
+  text-shadow: 1px 1px rgb(238, 114, 153);
+  
+}
  
    
   li {
     list-style: none;
     display: inline-block;
- 
+    
   }
+
+
+@keyframes zigzag {
+  0% {
+      transform: translateX(0) translateY(0);
+  }
+  25% {
+      transform: translateX(150px) translateY(-50px);
+  }
+  50% {
+      transform: translateX(300px) translateY(0);
+  }
+  75% {
+      transform: translateX(450px) translateY(-50px);
+  }
+  100% {
+      transform: translateX(600px) translateY(0);
+  }
+}
+
+.zigzag-container {
+  position: relative;
+  animation: zigzag 5s infinite alternate;
+  max-width: 50%;
+  align-items: center;
+}
+
+.zigzag-container img {
+  max-width: 100%;
+  height: auto;
+}
 
  
