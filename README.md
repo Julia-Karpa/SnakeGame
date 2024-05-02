@@ -10,6 +10,8 @@ To add a twist to the game, the player has to answer three snake-themed, multipl
 
 1. I want to play the snake phone game on my PC.
 2. I want to be able to see my highest score, as this will make the game more meaningful and give me something to aim for.
+3. I want to play a simple game, with no complex instruction.
+4. I want something to do whilst I have a few free minutes.
 
 ## Logo & Colours:
 
@@ -20,6 +22,14 @@ I used Adobe AI generator to create my snake logo.
 I wanted a logo that would match my overall page colour scheme. I went for pink and green, as pink softens and warms up a green tone, while green keeps the pink grounded and earthy. 
 
 <img src="/assets/images/colourscheme.png">
+
+
+## Languages Used:
+
+HTML5
+CSS3
+JavaScript
+
 
 ## Wireframes:
 
