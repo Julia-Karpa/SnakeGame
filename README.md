@@ -42,7 +42,7 @@ JavaScript
 1. Add the ability to store the user's highest score after the user leaves the browser.
 2. Add more snake questions (there is only a choice of nine questions that get selected at random). Therefore, the quiz wouldn't be fun or challenging for users who play the game frequently.
 3. As the user scores more points, add obstacles to the grid for the snake to avoid. 
-4. Occasionally, the same question repeats twice in a row and ideally this shouldn't happen.
+4. Occasionally, the same question repeats twice in a row, and ideally, this shouldn't happen.
 
 
 ## Testing Phase:
