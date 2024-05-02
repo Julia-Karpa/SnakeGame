@@ -1,0 +1,72 @@
+body {
+    font-family: "Dangrek", sans-serif;
+  
+    text-align: center;
+    color: #fff;
+    background: radial-gradient(
+      at center,
+      rgb(238, 114, 153),
+      rgb(139, 244, 125)
+    );
+  }
+  
+  h1,
+  h2 {
+    color: white;
+    text-shadow: 2px 1px rgb(238, 114, 153);
+    font-family: "Dangrek", sans-serif;
+  }
+  
+  p {
+    color: rgb(238, 114, 153);
+  }
+  
+  button {
+    border: none;
+    background: radial-gradient(
+      at center,
+      rgb(238, 114, 153),
+      rgb(139, 244, 125)
+    );
+  }
+  
+  button:hover {
+    background: radial-gradient(
+      at center,
+      rgb(139, 244, 125),
+      rgb(238, 114, 153)
+    );
+    cursor: pointer;
+  }
+  
+  #btnStart {
+    margin-top: 20px;
+    margin-left: 33%;
+    margin-right: 33%;
+    height: 33%;
+    width: 33%;
+  }
+  
+  @keyframes MoveUpDown {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-300px);
+    }
+  }
+  
+  .movingsnake {
+    animation: MoveUpDown 10s linear infinite;
+    position: fixed;
+    margin-left: 50%;
+    z-index: -1;
+  }
+  
+  .movingsnake2 {
+    animation: MoveUpDown 10s linear infinite;
+    position: fixed;
+    margin-right: 50%;
+    z-index: -1;
+  }

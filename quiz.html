@@ -5,36 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/css/quiz.css" />
     <title>Quiz</title>
-
-    
   </head>
 
   <body>
-    
-    <h1>Answer 3 Questions Correctly To Unlock Access To The Game</h1>
-    <br>
-   
-<table>
-  <tr>
-    <td>Score:</td>
-    <td id="score"></td>
-    <td>Attempts :</td>
-    <td id="try"></td>
-  </tr>
-</table>
-<br>
-   <div>
-      <div id="question"></div>
-      <br>
-      <br>
-      <div class="choices" id="choice0" onclick="checkAnswer(this , 0)"></div>
-      <div class="choices" id="choice1" onclick="checkAnswer(this , 1)"></div>
-      <div class="choices" id="choice2" onclick="checkAnswer(this , 2)"></div>
-      <div class="choices" id="choice3" onclick="checkAnswer(this , 3)"></div>
-    </div>
+    <header>
+      <h1>Answer 3 Questions Correctly</h1>
+      <h1>To Unlock The Game</h1>
+      <hr />
 
-    <div class="zigzag-container"><img src="assets/images/movingsnake (1).png" alt="moving snake animation"></div>
-  </div>
+      <table width="99%">
+        <tr>
+          <td>Score:</td>
+          <td id="score"></td>
+          <td>Attempts :</td>
+          <td id="try"></td>
+        </tr>
+      </table>
+    </header>
+
+    <main>
+      <div>
+        <div id="question"></div>
+        <br />
+        <br />
+        <div class="choices" id="choice0" onclick="checkAnswer(this , 0)"></div>
+        <div class="choices" id="choice1" onclick="checkAnswer(this , 1)"></div>
+        <div class="choices" id="choice2" onclick="checkAnswer(this , 2)"></div>
+        <div class="choices" id="choice3" onclick="checkAnswer(this , 3)"></div>
+      </div>
+
+      <div class="zigzag-container">
+        <img
+          src="assets/images/movingsnake (1).png"
+          alt="moving snake animation" />
+      </div>
+    </main>
+
+    <footer>
+    
+    </footer>
 
     <script src="assets/javascript/quiz.js"></script>
   </body>

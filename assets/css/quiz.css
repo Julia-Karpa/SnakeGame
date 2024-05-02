@@ -1,86 +1,75 @@
 body {
-font-family: "Dangrek", sans-serif;
+  font-family: "Dangrek", sans-serif;
 
-text-align: center;
-color: #fff;
-background: radial-gradient(at center, rgb(238, 114, 153),rgb(139, 244, 125) );
+  text-align: center;
+  color: #fff;
+  background: radial-gradient(
+    at center,
+    rgb(238, 114, 153),
+    rgb(139, 244, 125)
+  );
 }
-
 
 h1 {
-    color: white;
-    text-shadow: 2px 1px rgb(238, 114, 153);
-    font-family: "Dangrek", sans-serif;
-  
+  color: white;
+  text-shadow: 2px 1px rgb(238, 114, 153);
+  font-family: "Dangrek", sans-serif;
 }
-
 
 p {
-    color: rgb(238, 114, 153);
+  color: rgb(238, 114, 153);
 }
 
-
-
 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
- 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
+#question {
+  color: #fff;
+  text-shadow: 1px 1px rgb(238, 114, 153);
+  font-size: xx-large;
+}
 
-  #question {
-    color: #fff;
-    text-shadow: 1px 1px rgb(238, 114, 153);
-    font-size: xx-large;
-  }
+.choices {
+  font-size: xx-large;
+}
 
-  .choices {
-    font-size: xx-large;
-    
-  }
-  
+.choices:hover {
+  color: rgb(166, 234, 157);
+  background-color: rgb(238, 114, 153);
+  cursor: pointer;
+}
 
-  .choices:hover {
-    color: rgb(166, 234, 157);
-    background-color: rgb(238, 114, 153);
-    cursor: pointer;
-   
-   
-  }
-  
 tr {
   font-size: x-large;
   text-shadow: 1px 1px #fff;
   background-color: rgb(166, 234, 157);
   color: rgb(238, 114, 153);
-  
 }
- 
-   
-  li {
-    list-style: none;
-    display: inline-block;
-    
-  }
 
+li {
+  list-style: none;
+  display: inline-block;
+}
 
 @keyframes zigzag {
   0% {
-      transform: translateX(0) translateY(0);
+    transform: translateX(0) translateY(0);
   }
   25% {
-      transform: translateX(150px) translateY(-50px);
+    transform: translateX(150px) translateY(-50px);
   }
   50% {
-      transform: translateX(300px) translateY(0);
+    transform: translateX(300px) translateY(0);
   }
   75% {
-      transform: translateX(450px) translateY(-50px);
+    transform: translateX(450px) translateY(-50px);
   }
   100% {
-      transform: translateX(600px) translateY(0);
+    transform: translateX(600px) translateY(0);
   }
 }
 
@@ -89,34 +78,11 @@ tr {
   animation: zigzag 5s infinite alternate;
   max-width: 50%;
   align-items: center;
+  z-index: -1 ;
+ 
 }
 
 .zigzag-container img {
   max-width: 100%;
   height: auto;
-}
-
-.movingsnake {
-  animation: MoveUpDown 10s linear infinite;
-  position: fixed;
-  left: 50%;
-  bottom: 0;
-  
-}
-
-.movingsnake2 {
-  animation: MoveUpDown 10s linear infinite;
-  position: fixed;
-  right: 50%;
-  bottom: 0;
-  
-}
-
-@keyframes MoveUpDown {
-  0%, 100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-300px);
-  }
 }
