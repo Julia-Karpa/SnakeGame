@@ -43,6 +43,8 @@ I used Google Lighthouse to test the performance of my pages. Here are the resul
 
 <img src="/assets/images/Screenshot 2024-05-02 102032.png">
 
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project. All my pages showed the following results:
+
 <img src="/assets/images/Screenshot 2024-05-02 103806.png">
 
 <img src="/assets/images/Screenshot 2024-05-02 104411.png">
