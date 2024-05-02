@@ -36,6 +36,10 @@ I wanted a logo that would match my overall page colour scheme. I went for pink 
 
 ## Testing Phase:
 
+<img src="/assets/images/Screenshot 2024-05-02 101735.png">
+<img src="/assets/images/Screenshot 2024-05-02 101927.png">
+<img src="/assets/images/Screenshot 2024-05-02 102032.png">
+
 
 ## Acknowledgments/ Credits:
 
