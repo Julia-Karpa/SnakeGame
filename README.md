@@ -43,6 +43,10 @@ I used Google Lighthouse to test the performance of my pages. Here are the resul
 
 <img src="/assets/images/Screenshot 2024-05-02 102032.png">
 
+<img src="/assets/images/Screenshot 2024-05-02 103806.png">
+
+<img src="/assets/images/Screenshot 2024-05-02 104411.png">
+
 
 ## Acknowledgments/ Credits:
 
