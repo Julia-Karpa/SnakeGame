@@ -32,6 +32,7 @@ I wanted a logo that would match my overall page colour scheme. I went for pink 
 1. Add the ability to store the user's highest score after the user leaves the browser.
 2. Add more snake questions (there is only a choice of nine questions that get selected at random). Therefore, the quiz wouldn't be fun or challenging for users who play the game frequently.
 3. As the user scores more points, add obstacles to the grid for the snake to avoid. 
+4. Occasionally, the same question repeats twice in a row and ideally this shouldn't happen.
 
 
 ## Testing Phase:
@@ -42,6 +43,7 @@ I used Google Lighthouse to test the performance of my pages. Here are the resul
 <img src="/assets/images/Screenshot 2024-05-02 101735.png">
 
 <img src="/assets/images/Screenshot 2024-05-02 102032.png">
+
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project. All my pages showed the following results:
 
